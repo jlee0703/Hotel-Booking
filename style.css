@@ -189,7 +189,7 @@ section {
   padding-right: 0;
 }
 
-.nav-link.language.ko {
+.language-opened {
   color: gray;
 }
 
@@ -681,5 +681,8 @@ section {
 @media screen and (min-width: 1200px) {
   .book-form .input-group:first-child {
     flex: 0 0 30%;
+  }
+  .image-wrap {
+    flex: 0 0 45%;
   }
 }
