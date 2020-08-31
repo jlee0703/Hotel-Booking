@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,8 +42,8 @@
               <a href="#" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
-              <a href="index.html" class="nav-link language ko">KO</a>
-              <a href="index2.html" class="nav-link language en">EN</a>
+              <a href="index.html" class="nav-link language">KO</a>
+              <a href="#" class="nav-link language language-opened">EN</a>
             </li>
           </ul>
         </nav>
@@ -68,19 +68,19 @@
         <div class="container">
           <form action="" class="book-form">
             <div class="input-group">
-              <label for="destination" class="input-label">목적지</label>
+              <label for="destination" class="input-label">Destination</label>
               <input type="text" class="input" id="destination" />
             </div>
             <div class="input-group">
-              <label for="check-in" class="input-label">체크인</label>
+              <label for="check-in" class="input-label">Check-In</label>
               <input type="date" class="input" id="check-in" />
             </div>
             <div class="input-group">
-              <label for="check-out" class="input-label">체크아웃</label>
+              <label for="check-out" class="input-label">Check-Out</label>
               <input type="date" class="input" id="check-out" />
             </div>
             <div class="input-group">
-              <label for="adults" class="input-label">성인</label>
+              <label for="adults" class="input-label">Adults</label>
               <select name="" id="adults" class="options">
                 <option value="0">0</option>
                 <option value="0">1</option>
@@ -91,7 +91,7 @@
               </select>
             </div>
             <div class="input-group">
-              <label for="children" class="input-label">어린이</label>
+              <label for="children" class="input-label">Children</label>
               <select name="" id="adults" class="options">
                 <option value="0">0</option>
                 <option value="0">1</option>
@@ -103,7 +103,7 @@
             </div>
             <button type="submit" class="btn form-btn btn-purple">
               Search
-              <span class="dots"><i class="fas fa-search"></i></span>
+              <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
             </button>
           </form>
         </div>
@@ -336,7 +336,7 @@
                   class="input"
                   cols="30"
                   rows="8"
-                  placeholder="E-mail"
+                  placeholder="Message"
                   required
                 ></textarea>
                 <span class="bar"></span>
