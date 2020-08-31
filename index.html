@@ -41,6 +41,10 @@
             <li class="nav-item">
               <a href="#" class="nav-link">Contact</a>
             </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link language ko">KO</a>
+              <a href="index2.html" class="nav-link language en">EN</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -53,8 +57,8 @@
             <h1 class="title">Discover</h1>
             <h2 class="subtitle">Luxury Hotels</h2>
           </div>
-          <a href="#" class="btn btn-gradient"
-            >Explore now
+          <a href="#" class="btn btn-gradient text-ko-medium">
+            시작하기
             <span class="dots"><i class="fas fs-ellipsis-h"></i></span>
           </a>
         </div>
@@ -64,42 +68,50 @@
         <div class="container">
           <form action="" class="book-form">
             <div class="input-group">
-              <label for="destination" class="input-label">Destination</label>
+              <label for="destination" class="input-label text-ko-small"
+                >목적지</label
+              >
               <input type="text" class="input" id="destination" />
             </div>
             <div class="input-group">
-              <label for="check-in" class="input-label">Check-in</label>
+              <label for="check-in" class="input-label text-ko-small"
+                >체크인</label
+              >
               <input type="date" class="input" id="check-in" />
             </div>
             <div class="input-group">
-              <label for="check-out" class="input-label">Check-out</label>
+              <label for="check-out" class="input-label text-ko-small"
+                >체크아웃</label
+              >
               <input type="date" class="input" id="check-out" />
             </div>
             <div class="input-group">
-              <label for="adults" class="input-label">Adults</label>
+              <label for="adults" class="input-label text-ko-small">성인</label>
               <select name="" id="adults" class="options">
                 <option value="0">0</option>
-                <option value="0">0</option>
-                <option value="0">0</option>
-                <option value="0">0</option>
-                <option value="0">0</option>
-                <option value="0">0</option>
+                <option value="0">1</option>
+                <option value="0">2</option>
+                <option value="0">3</option>
+                <option value="0">4</option>
+                <option value="0">5</option>
               </select>
             </div>
             <div class="input-group">
-              <label for="children" class="input-label">Children</label>
+              <label for="children" class="input-label text-ko-small"
+                >어린이</label
+              >
               <select name="" id="adults" class="options">
                 <option value="0">0</option>
-                <option value="0">0</option>
-                <option value="0">0</option>
-                <option value="0">0</option>
-                <option value="0">0</option>
-                <option value="0">0</option>
+                <option value="0">1</option>
+                <option value="0">2</option>
+                <option value="0">3</option>
+                <option value="0">4</option>
+                <option value="0">5</option>
               </select>
             </div>
-            <button type="submit" class="btn form-btn btn-purple">
-              Search
-              <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+            <button type="submit" class="btn form-btn btn-purple text-ko-small">
+              검색하기
+              <span class="dots"><i class="fas fa-search"></i></span>
             </button>
           </form>
         </div>
@@ -108,7 +120,7 @@
       <section class="hotels">
         <div class="container">
           <h5 class="section-head">
-            <span class="heading">Explore</span>
+            <span class="heading text-ko-large">인기호텔</span>
             <span class="sub-heading">Our beutiful hotels</span>
           </h5>
           <div class="grid">
@@ -119,7 +131,7 @@
                 class="hotel-image"
               />
               <h5 class="hotel-name">Astro Hotel</h5>
-              <span class="hotel-price">From $200/Night</span>
+              <span class="hotel-price">&#8361;220,000부터</span>
               <div class="hotel-rating">
                 <i class="fas fa-star rating"></i>
                 <i class="fas fa-star rating"></i>
@@ -127,8 +139,8 @@
                 <i class="fas fa-star rating"></i>
                 <i class="fas fa-star-half rating"></i>
               </div>
-              <a href="#" class="btn btn-gradient"
-                >Book now
+              <a href="#" class="btn btn-gradient text-ko-medium"
+                >예약하기
                 <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
               </a>
             </div>
@@ -140,7 +152,7 @@
                 class="hotel-image"
               />
               <h5 class="hotel-name">Enchanted Garden</h5>
-              <span class="hotel-price">From $300/Night</span>
+              <span class="hotel-price">&#8361;320,000부터</span>
               <div class="hotel-rating">
                 <i class="fas fa-star rating"></i>
                 <i class="fas fa-star rating"></i>
@@ -148,8 +160,8 @@
                 <i class="fas fa-star rating"></i>
                 <i class="fas fa-star rating"></i>
               </div>
-              <a href="#" class="btn btn-gradient"
-                >Book now
+              <a href="#" class="btn btn-gradient text-ko-medium"
+                >예약하기
                 <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
               </a>
             </div>
@@ -161,7 +173,7 @@
                 class="hotel-image"
               />
               <h5 class="hotel-name">The Paradies</h5>
-              <span class="hotel-price">From $350/Night</span>
+              <span class="hotel-price">&#8361;380,000부터</span>
               <div class="hotel-rating">
                 <i class="fas fa-star rating"></i>
                 <i class="fas fa-star rating"></i>
@@ -169,8 +181,8 @@
                 <i class="fas fa-star rating"></i>
                 <i class="fas fa-star-half rating"></i>
               </div>
-              <a href="#" class="btn btn-gradient"
-                >Book now
+              <a href="#" class="btn btn-gradient text-ko-medium"
+                >예약하기
                 <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
               </a>
             </div>
@@ -191,13 +203,16 @@
               <i class="fas fa-star-half rating"></i>
             </div>
             <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              maiores impedit soluta distinctio nulla, porro voluptatem! Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Iure maiores
-              impedit soluta distinctio nulla, porro voluptatem!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+              quaerat veniam facere laborum, eos asperiores, fugit magnam
+              accusamus accusantium placeat enim debitis nemo dolorum alias!
+              Dolores nihil officia debitis similique! Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Quisquam, quaerat veniam facere
+              laborum, eos asperiores, fugit magnam accusamus accusantium
+              placeat enim debitis nemo dolorum alias! Dolores nihil
             </p>
-            <a href="#" class="btn btn-gradient"
-              >Redeem offer
+            <a href="#" class="btn btn-gradient text-ko-small">
+              할인특가
               <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
             </a>
           </div>
