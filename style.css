@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
 
 /* Reset */
 *,
@@ -183,6 +184,15 @@ section {
   padding: 1rem;
 }
 
+.nav-link.language {
+  display: inline-block;
+  padding-right: 0;
+}
+
+.nav-link.language.ko {
+  color: gray;
+}
+
 /* Hero Section Styles */
 
 .hero {
@@ -355,7 +365,7 @@ section {
   text-align: center;
   padding: 5rem 1rem;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .discount {
@@ -524,6 +534,17 @@ section {
 
 .sm-link i {
   margin: auto;
+}
+
+.text-ko-large {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 6rem;
+}
+.text-ko-medium {
+  font-size: 2rem;
+}
+.text-ko-small {
+  font-size: 1.5rem;
 }
 
 /* Media queries */
